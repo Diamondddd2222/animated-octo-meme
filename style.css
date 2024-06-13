@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: px;
+  box-sizing: border-box;
+  font-family:"Rubik", sans-serif; 
+ 
+}
+body{
+  position: relative;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image:url("bimg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+header{
+  width: 100%;
+  height:100% ;
+  padding: 5px;
+}
+
+.container .header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.header .links ul{
+  display: flex;
+  gap: 70px;
+}
+
+.header .links li{
+   list-style: none;
+}
+
+.header .links a{
+  text-decoration: none;
+  color: white;
+}
+
+.logotext{
+  color: orangered;
+}
+
+.search input{
+  padding: 5px;
+  border: 1px solid orangered;
+  background: transparent;
+}
+
+.search input::placeholder{
+  color: white;
+}
+
+.button{
+  padding: 8px;
+  background-color: orangered;
+  color:white;
+  border: 1px transparent;
+}
+
+
+.maincontainer{
+  display: flex;
+  min-height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.maincontainer .writingcontainer .space{
+  line-height: 2.5rem;
+  word-spacing:5px;
+  padding-bottom: 10px;
+}
+
+.maincontainer .writingtext{
+  color: rgb(255, 255, 255);
+}
+.maincontainer .writingtext1{
+  color: orangered;
+}
+.maincontainer .writingtext2{
+  color: rgb(255, 255, 255);
+}
+.maincontainer p{
+  line-height: 1.6rem;
+  color: rgb(255, 255, 255);
+  padding-bottom: 10px;
+}
+.maincontainer .button1{
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 8px 16px;
+  background-color: orangered;
+  color:white;
+  border: 1px transparent;
+}
+
+.formcontainer {
+ border-radius: 10px;
+ text-align: center;
+ background-color: rgba(0, 0, 0, 0.963);
+ height: 60%;
+ padding: 20px 0;
+}
+.formcontainer .formwriting{
+  background-color: white;
+  font-size: 1rem;
+  color: orangered;
+  padding: 4px;
+  margin: 10px 70px;
+  border: 1px transparent;
+  border-radius: 5px;
+}
+.form input{
+  background-color: transparent;
+  font-size: 1rem;
+  color: white;
+  padding: 4px;
+  margin: 10px 70px;
+  border: 1px transparent;
+  border-bottom: 1px solid orangered;
+}
+.form input::placeholder{
+  font-size: 0.8rem;
+  color: white;
+}
+
+.formcontainer .button2{
+  color: black;
+  background-color: orangered;
+  padding: 5px;
+  border: 1px transparent;
+  width: 60%;
+  border-radius: 5px;
+}
+.formcontainer .signuptext{
+  font-size: 0.8rem;
+  padding-top: 15px ;
+  color: white;
+}
+.formcontainer .sign{
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap:5px;
+}
+.formcontainer .sign a{
+  font-size: 0.8rem;
+  color: orangered;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+.formcontainer .sign .linktext{
+  color: white;
+  font-weight: 200;
+}
+.formcontainer .log{
+  color: white;
+  padding-bottom: 10px;
+}
+.formcontainer .socialmedia{
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
